@@ -1,0 +1,19 @@
+{
+  "changelogDate": "20230203123304",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique", "minlength", "maxlength"],
+      "fieldValidateRulesMaxlength": "30",
+      "fieldValidateRulesMinlength": "5"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "Post",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}
